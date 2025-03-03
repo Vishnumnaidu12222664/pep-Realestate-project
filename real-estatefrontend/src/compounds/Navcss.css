@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.subnavlogo img{
+    width: 50px;
+}
+.Navrbar{
+    display: flex;
+    width: 90%;
+    position: sticky;
+    height: 60px;
+    align-items: center;
+    background-color: white;
+}
+.subnavdetail ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.subnavlogo{
+    display: flex;
+    width: 40%;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: 30px;
+}
+.subnavlogo h3{
+    color: #000000;
+    font-family: Potta One;
+}
+.subnavdetail{
+    width: 60%;
+}
+.subnavdetail ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+    font-weight: 700;
+}
+.subnavdetail ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+#navl5{
+    margin-left: 120px;
+}
+#nav15 img{
+    width: 20%;
+}
+#navl4{
+    border: 2px solid ;
+    width: 130px;
+    text-align: center;
+    height: 24px;
+    border-color: red;
+    border-radius: 5px;
+}
+.Home {
+    background-image: url(../Images/pixelcut-export.jpg);
+    width: 100%; 
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.SubHome {
+    position: absolute;
+    top: 130px; 
+    left: 80px; 
+   
+    font-size: 36px;
+}
+
+.SubHome button{
+    border: none;
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.subnavdetail {
+    width: 60%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.subnavdetail img {
+    width: 40px; 
+    height: auto;
+    margin-left: auto; 
+}
+#resetbutton{
+background-color: red;
+color: aliceblue;
+border: none;
+border-radius: 10px;
+width: 9.5%;
+}
+
+

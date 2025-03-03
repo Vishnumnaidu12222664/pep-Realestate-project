@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-background {
+  height: 100vh;
+  background-image: url(../Images/singup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bg-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h2 {
+  text-align: center;
+  margin: 0; 
+  color: black;
+  font-size: 24px;
+}
+
+.form-group #username{
+  width: 90%;
+}
+#email{
+  width: 90%;
+  margin-right: 30px;
+}
+#password{
+  width: 90%;
+}
+#confirmPassword{
+  width: 76%;
+  margin-left: 28px;
+}
+
+.form-group #username{
+  width: 90%;
+}
+
+.form-group #username{
+  width: 90%;
+}
+
+.form-group #username{
+  width: 90%;
+}
+
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.text-center p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.text-center p a {
+  color: red;
+  text-decoration: none;
+}
+
+.text-center p a:hover {
+  text-decoration: underline;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
